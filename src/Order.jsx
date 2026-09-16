@@ -39,6 +39,7 @@ export default function Order() {
             <label htmlFor="pizza-type">Pizza Type</label>
             <select
               onChange={(e) => setPizzaType(e.target.value)}
+              id="pizza-type"
               name="pizza-type"
               value={pizzaType}
             >
